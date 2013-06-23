@@ -21,6 +21,8 @@ Or install it yourself as:
 The module defines a class method `define_regex_method` that is used to define the matched methods. Simple example:
 
 ```ruby
+require 'regex_method'
+
 class Addition
   include RegexMethod
 
@@ -36,6 +38,8 @@ Addition.new.add_4_to_5
 Note that because you cannot use `return` inside the defined method since we are in a Proc. If you want to be explicit the use `next`:
 
 ```ruby
+require 'regex_method'
+
 class RegexMaths
   include RegexMethod
 
