@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tjlivesey@gmail.com"]
   spec.description   = %q{Define methods with a regex.}
   spec.summary       = %q{Define methods with a regex as the method name to avoid implementing method_missing calls}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tjlivesey/regex_method"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
