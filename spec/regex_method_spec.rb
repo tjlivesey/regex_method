@@ -12,6 +12,9 @@ describe RegexMethod  do
 		Foo.should respond_to :regex_methods=
 	end
 
+	it "should raise an error if no block is given" do
+	end
+
 	context "with a defined regex method" do
 		before do
 			class Addition
